@@ -1,0 +1,26 @@
+name: meals_app
+description: A simple Flutter app that uses TheMealDB API to show recipes.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.2
+flutter:
+uses-material-design: true
+sdk: flutter
+http: ^0.13.6
+cached_network_image: ^3.2.3
+url_launcher: ^6.1.7
+
+
+dev_dependencies:
+flutter_test:
+flutter_lints: ^2.0.0
+
